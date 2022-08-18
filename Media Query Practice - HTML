@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Media Query Practice Page</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Media Query Practice Page</h1>
+    </header>
+      <p id="description">This page is a practice page, its creation came about so that I could practice using media queries.</p>
+      <p id="description">The main goal in my usage of media queries on this page is to gain more skill with altering the style of the page depending on the dimensions of the device being used to view the page.</p>
+      <p id="description">Dimensions that I want to include stylizations for are:</p>
+      <ul id="devices">
+        <li>Desktop Monitors (1920 x 1080p)</li>
+        <li>Desktop Monitors (1366 x 768p)</li>
+        <li>Mobile Devices (360 x 640p)</li>
+        <li>Tablets (768 x 1024p)</li>
+      </ul>
+      <p id="description">I chose these devices as they are the most common resolutions used worldwide.</p>
+      <p>Below I will list the various changes in style one should notice depending on what viewport size they are viewing the page through:</p>
+      <ul id="styles">
+        <li>If you are viewing through a viewport with a width higher than 1920px, the background should be black, and the text white. The font size should also increase by a slight amount.</li>
+        <li>If you are viewing through a viewport with a width between 1366px and 1919px, you should see a red background, and the list items should be more spaced out.</li>
+        <li>If you are viewing through a viewport with a width between 360px and 500px, the background should be blue. The margins are increased again, this time for all text fields. Lastly, the margins on the left and right should be further from the edge of the viewport, and the title should be a smaller font size.</li>
+        <li>If you are viewing through a device set to landscape mode with a width between 640px and 1000px, the background will appear purple.</li>
+      </ul>
+  </body>
+</html>
